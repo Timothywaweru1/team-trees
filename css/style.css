@@ -60,7 +60,8 @@ img {
 }
 #about-trees {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    gap: 5px;
     
 }
 #box {
