@@ -16,12 +16,6 @@ document.addEventListener ("DOMContentLoaded",() =>{
         });
         
     }
-    let parent = document.querySelector ("#about-trees")
-    let children = parent.children
-    
-    console.log(children);
-    
-    
     
     fetch (baseUrl)
     .then (response => response.json())

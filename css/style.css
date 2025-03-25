@@ -43,6 +43,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 1rem;
 }
 button {
     width: 130px;
@@ -65,4 +66,15 @@ img {
 #box {
     border: 2px solid black;
     height: 515px;
+}
+.add-new-tree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#add {
+    background-color: green;
+    border-radius: 1rem;
 }
