@@ -78,3 +78,30 @@ img {
     background-color: green;
     border-radius: 1rem;
 }
+#socials {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: ; */
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.top {
+    display: flex;
+    justify-content: right;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    border-radius: 8rem;
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
