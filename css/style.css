@@ -55,10 +55,14 @@ button {
     margin-bottom: 5px;
 }
 img {
-    width: 200px;
+    width: 250px;
 }
 #about-trees {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+#box {
+    border: 2px solid black;
+    height: 515px;
 }
