@@ -1,13 +1,25 @@
-document.addEventListener("DOMContentLoaded", () =>{
+document.addEventListener ("DOMContentLoaded",() =>{
     const baseUrl = "http://localhost:3000/trees"
-    fetch(baseUrl)
-    .then(response => response.json ())
-    .then (trees => {
-        trees.forEach(tree => {
-            document.querySelector ("h4").textContent = tree.name
-            document.querySelector ("#image").src = tree.image_url
-            document.querySelector ("#description").textContent = tree.description
+    function displayTrees (trees) {
+        trees.forEach(tree=> {
+            let html = `
+            <div>
+                <h3>${tree.name}</h3>
+                <img src="${tree.image_url}" alt="" id="image">
+                <p id="description">${tree.description}</p>
+            </div>
+            `
+            let about_trees = document.getElementById('about-trees')
+
+            about_trees.innerHTML += html
+            // document.querySelector ("h3").textContent += tree.name
+            // document.querySelector ("img").src = tree.image_url
+            // document.querySelector ("#description").textContent = tree.description
         });
-    })
-    .catch (error => console.log(error))
+        
+    }
+    fetch (baseUrl)
+    .then (response => response.json())
+    .then (data => displayTrees (data))
+     
 })

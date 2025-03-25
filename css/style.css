@@ -54,3 +54,11 @@ button {
     align-items: center;
     margin-bottom: 5px;
 }
+img {
+    width: 200px;
+}
+#about-trees {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
