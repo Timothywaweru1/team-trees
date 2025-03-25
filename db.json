@@ -1,196 +1,76 @@
 {
-    "plants" : [
-        {
-          "_id": "64a27d18c94927238c9cd9cf",
-          "botanicalName": "Borago officinalis",
-          "plantName": "Borago",
-          "description": "Borage is an annual herb with hairy leaves and star-shaped blue flowers.",
-          "flowerColor": "Blue",
-          "foodNutrients": "Pollen",
-          "growthHabits": "Annual Herb",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "Mediterranean",
-          "companionPlants": ["Tomatos", "Cucumber"],
-          "bloomingTimes": "Spring to Summer",
-          "imageUrl": "https://example.com/borage.jpg",
-          "plantHeight": "1 to 3 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64a3d3f17ae35cbe01d63bbc",
-          "botanicalName": "Lavandula angustifolia",
-          "plantName": "Lavender",
-          "description": "Aromatic perennial shrub with narrow, gray-green leaves and spikes of purple flowers.",
-          "flowerColor": "Purple",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Perennial",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "Mediterranean",
-          "companionPlants": ["Rosemary", "Sage", "Chives"],
-          "bloomingTimes": "Summer",
-          "imageUrl": "https://example.com/lavender.jpg",
-          "plantHeight": "2 to 3 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64a3d4627ae35cbe01d63bbf",
-          "botanicalName": "Rosa rugosa",
-          "plantName": "Rose",
-          "description": "Shrub with prickly stems and fragrant flowers",
-          "flowerColor": "Red, Pink, Yellow, White",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Perennial",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "Northeast Asia",
-          "companionPlants": ["Rosemary", "Sage", "Chives"],
-          "bloomingTimes": "Summer",
-          "imageUrl": "https://example.com/rose.jpg",
-          "plantHeight": "3-6 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64a3d4eb7ae35cbe01d63bc2",
-          "botanicalName": "Zinnia elegans",
-          "plantName": "Zinnia",
-          "description": "Annual with daisy-like flowers in a variety of colors.",
-          "flowerColor": "Yellow, orange, red, pink, white",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Annual",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "Mexico",
-          "companionPlants": ["Sunflower", "Marigold", "Coneflower"],
-          "bloomingTimes": "Summer, Fall",
-          "imageUrl": "https://example.com/zinnia.jpg",
-          "plantHeight": "1-2 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64a3d53b7ae35cbe01d63bc5",
-          "botanicalName": "Marigold",
-          "plantName": "Marigold",
-          "description": "Annual with daisy-like flowers in a variety of colors.",
-          "flowerColor": "Yellow, orange, red",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Annual",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "Mexico",
-          "companionPlants": ["Sunflower", "Marigold", "Coneflower"],
-          "bloomingTimes": "Summer, Fall",
-          "imageUrl": "https://example.com/marigold.jpg",
-          "plantHeight": "1-2 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64a3d5c87ae35cbe01d63bc8",
-          "botanicalName": "Helianthus annuus",
-          "plantName": "Sunflower",
-          "description": "The sunflower is a tall, annual plant with large, yellow flowers. It is native to North America and is a popular garden flower. Sunflowers are a good source of pollen and nectar for bees and other pollinators.",
-          "flowerColor": "Yellow",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Annual",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "North America",
-          "companionPlants": ["Zinnia", "Black-eyed Susan", "Coneflower"],
-          "bloomingTimes": "Summer",
-          "imageUrl": "https://example.com/sunflower.jpg",
-          "plantHeight": "6-12 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64afa4bb2bf22c1f77c5342e",
-          "botanicalName": "Pelargonium x hortorum",
-          "plantName": "Geranium",
-          "description": "Aromatic perennial with showy flowers in a variety of colors.",
-          "flowerColor": "Red, pink, orange, yellow, white, purple",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Annual or perennial",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "South Africa",
-          "companionPlants": ["Lavender", "Rosemary", "Sage"],
-          "bloomingTimes": "Spring, summer, fall",
-          "imageUrl": "https://example.com/geranium.png",
-          "plantHeight": "1-2 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64afa7b454da9b0f24755617",
-          "botanicalName": "Salvia officinalis",
-          "plantName": "Sage",
-          "description": "Perennial herb with gray-green leaves and spikes of blue, purple, or white flowers",
-          "flowerColor": "Blue, purple, or white",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Perennial",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "Mediterranean",
-          "companionPlants": ["Lavender", "Rosemary", "Catmint"],
-          "bloomingTimes": "Summer",
-          "imageUrl": "https://example.com/sage.png",
-          "plantHeight": "2-3 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64afa88b54da9b0f2475561b",
-          "botanicalName": "Salvia splendens",
-          "plantName": "Scarlet Sage",
-          "description": "Scarlet sage is an annual flowering plant with bright red flowers and dark green foliage.",
-          "flowerColor": "Red",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Annual",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "Brazil",
-          "companionPlants": ["Verbena", "Petunia"],
-          "bloomingTimes": "Summer to Fall",
-          "imageUrl": "https://example.com/scarlet-sage.png",
-          "plantHeight": "1-3 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64afa92654da9b0f2475561e",
-          "botanicalName": "Lobelia erinus",
-          "plantName": "Lobelia",
-          "description": "Lobelia is a low-growing annual flower with delicate blue, purple, or white blooms.",
-          "flowerColor": "Blue, purple, white",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Annual",
-          "waterRequirements": "Moderate",
-          "nativeRegion": "South Africa",
-          "companionPlants": ["Impatiens", "Caladium"],
-          "bloomingTimes": "Summer to Fall",
-          "imageUrl": "https://example.com/lobelia.png",
-          "plantHeight": "6-12 inches",
-          "__v": 0
-        },
-        {
-          "_id": "64afb8193a219a19afa4838e",
-          "botanicalName": "Achillea millefolium",
-          "plantName": "Yarrow",
-          "description": "Yarrow is a herbaceous perennial with clusters of small, aromatic flowers.",
-          "flowerColor": "Various Colors",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Perennial",
-          "waterRequirements": "Low",
-          "nativeRegion": "Northern Hemisphere",
-          "companionPlants": ["Lavender", "Echinacea"],
-          "bloomingTimes": "Spring to summer",
-          "imageUrl": "https://example.com/yarrow.jpg",
-          "plantHeight": "1 to 3 feet",
-          "__v": 0
-        },
-        {
-          "_id": "64afe63629f68e56c21ec2f6",
-          "botanicalName": "Agastache foeniculum",
-          "plantName": "Anise Hyssop",
-          "description": "Anise Hyssop is a perennial herb with purple flower spikes and a licorice-like aroma.",
-          "flowerColor": "Various Colors",
-          "foodNutrients": "Necter and Pollen",
-          "growthHabits": "Perennial",
-          "waterRequirements": "Low",
-          "nativeRegion": "North America",
-          "companionPlants": ["Bee Balm", "Echinacea"],
-          "bloomingTimes": "Summer to Fall",
-          "imageUrl": "https://example.com/anise_hyssop.jpg",
-          "plantHeight": "2 to 4 feet",
-          "__v": 0
-        }
-      ]
+  "trees": [
+    {
+      "name": "Oak Tree",
+      "scientific_name": "Quercus robur",
+      "description": "The English oak is a majestic, long-lived tree with lobed leaves and produces acorns. It's known for supporting a wide range of wildlife.",
+      "image_url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-oak/"
+    },
+    {
+      "name": "Maple Tree",
+      "scientific_name": "Acer species",
+      "description": "Maples are known for their distinctive lobed leaves and vibrant autumn colors. They vary in size from shrubs to large trees.",
+      "image_url": "https://www.thespruce.com/best-maple-trees-for-fall-color-4767398"
+    },
+    {
+      "name": "Pine Tree",
+      "scientific_name": "Pinus species",
+      "description": "Pines are evergreen conifers with needle-like leaves, commonly found in forests worldwide. They are valued for their timber and resin.",
+      "image_url": "https://www.pexels.com/photo/pine-tree-growing-on-green-meadow-5950743/"
+    },
+    {
+      "name": "Birch Tree",
+      "scientific_name": "Betula species",
+      "description": "Birches are medium-sized deciduous trees with distinctive white bark and serrated leaves. They are often found in temperate climates.",
+      "image_url": "https://www.thespruce.com/twelve-species-cultivars-of-birch-trees-3269660"
+    },
+    {
+      "name": "Willow Tree",
+      "scientific_name": "Salix species",
+      "description": "Willows are known for their slender branches and elongated leaves. They thrive near water sources and are often associated with graceful, drooping forms.",
+      "image_url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/willow/"
+    },
+    {
+      "name": "Cherry Tree",
+      "scientific_name": "Prunus species",
+      "description": "Cherry trees are celebrated for their beautiful spring blossoms and, in some varieties, for producing edible cherries.",
+      "image_url": "https://www.nature-and-garden.com/gardening/cherry-tree.html"
+    },
+    {
+      "name": "Apple Tree",
+      "scientific_name": "Malus domestica",
+      "description": "Apple trees are deciduous and are cultivated worldwide for their sweet, pomaceous fruit.",
+      "image_url": "https://landscaping.about.com/cs/fruittreesbushes/a/apple_trees.htm"
+    },
+    {
+      "name": "Baobab Tree",
+      "scientific_name": "Adansonia species",
+      "description": "Baobabs are iconic trees native to Africa and Australia, known for their massive trunks and longevity. They are often called 'upside-down trees' due to their appearance.",
+      "image_url": "https://www.awesomestories.com/asset/view/Baobab-Tree-Adansonia-grandidieri"
+    },
+    {
+      "name": "Acacia Tree",
+      "scientific_name": "Acacia species",
+      "description": "Acacias are fast-growing trees and shrubs found in tropical and subtropical regions, characterized by their feathery leaves and often bearing thorns.",
+      "image_url": "https://www.southerndestinations.com/incredible-acacia-tree-phenomenon/"
+    },
+    {
+      "name": "Cedar Tree",
+      "scientific_name": "Cedrus species",
+      "description": "Cedars are large evergreen conifers with fragrant wood, commonly used in construction and furniture making.",
+      "image_url": "https://www.publicdomainpictures.net/view-image.php?image=151924&picture=cedar-tree"
+    },
+    {
+      "name": "Mango Tree",
+      "scientific_name": "Mangifera indica",
+      "description": "Mango trees are tropical evergreens known for their delicious fruit and dense, wide canopies.",
+      "image_url": "https://www.freepik.com/premium-ai-image/mango-tree-full-mangoes_66708007.htm"
+    },
+    {
+      "name": "Coconut Tree",
+      "scientific_name": "Cocos nucifera",
+      "description": "Coconut trees are tall palms found in tropical regions, valued for their fruit, which provides coconut water, milk, and oil.",
+      "image_url": "https://www.pexels.com/photo/coconut-coconut-tree-coconut-trees-coconuts-240330/"
+    }
+  ]
 }
