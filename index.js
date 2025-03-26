@@ -49,11 +49,36 @@ document.addEventListener ("DOMContentLoaded",() =>{
     //         password.type = "password"
     //     }
     //  })
-    const form2 = document.querySelector ("#form-2")
-    form2.addEventListener ("submit" , function (e) {
-        e.preventDefault ()
-        const nameOfTree = document.querySelector (".name").value
-        let newsOfTree = document.querySelector (".news-of-tree").value
-        const img = document.querySelector (".url").value
-    })
+
+    // posting trees in the website
+        const form2 = document.querySelector ("#form-2")
+        form2.addEventListener ("submit" , function (e) {
+            e.preventDefault ()
+            const nameOfTree = document.querySelector (".name").value
+            let newsOfTree = document.querySelector (".news-of-tree").value
+            const img = document.querySelector (".url").value
+
+            const treeObject = {
+                name : nameOfTree,
+                description : newsOfTree,
+                image_url : img
+            }
+
+            console.log(treeObject);
+
+            fetch ("http://localhost:3000/trees", {
+                method : "POST" ,
+                headers : {
+                    "Content-Type" : "application/json"
+                },
+                body : JSON.stringify  (treeObject)
+            })
+            .then (response => response.json ())
+            .then (data => console.log (data))
+            .catch (error => console.error(error)
+            )
+        })
+        // deleting images of trees 
+        
+    
 })
