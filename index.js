@@ -28,17 +28,32 @@ document.addEventListener ("DOMContentLoaded",() =>{
         console.log(email);
         console.log(password);
     })
-
+    
+    // fetching image
+   fetch (baseUrl)
+   .then (response => response.json())
+   .then (data => displayTrees (data))
     // to show name on top
     document.querySelector ("#click").onclick = function (){
         let username = document.querySelector (".username").value
         let username2 = document.querySelector (".username2").value
         document.querySelector ("h2").textContent = `Hello ${username} ${username2}...`   
      }
-
-     // fetching images
-    fetch (baseUrl)
-    .then (response => response.json())
-    .then (data => displayTrees (data))
-     
+     // password
+    //  let eyeIcon = document.querySelector ("#password-eye")
+    //  let password = document.querySelector (".alert")
+    //  eyeIcon.addEventListener ("onclick",function (){
+    //     if (password.type === "password") {
+    //         password.type = "text"
+    //     } else {
+    //         password.type = "password"
+    //     }
+    //  })
+    const form2 = document.querySelector ("#form-2")
+    form2.addEventListener ("submit" , function (e) {
+        e.preventDefault ()
+        const nameOfTree = document.querySelector (".name").value
+        let newsOfTree = document.querySelector (".news-of-tree").value
+        const img = document.querySelector (".url").value
+    })
 })
