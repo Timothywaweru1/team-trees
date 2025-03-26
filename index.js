@@ -16,7 +16,27 @@ document.addEventListener ("DOMContentLoaded",() =>{
         });
         
     }
-    
+    const form = document.querySelector ("#form-1")
+    form.addEventListener ("submit", function (event) {
+        event.preventDefault ()
+        let username = document.querySelector (".username").value
+        let username2 = document.querySelector (".username2").value
+        const email = document.querySelector (".email").value
+        const password = document.querySelector (".alert").value
+        console.log(username2);
+        console.log(username);
+        console.log(email);
+        console.log(password);
+    })
+
+    // to show name on top
+    document.querySelector ("#click").onclick = function (){
+        let username = document.querySelector (".username").value
+        let username2 = document.querySelector (".username2").value
+        document.querySelector ("h2").textContent = `Hello ${username} ${username2}...`   
+     }
+
+     // fetching images
     fetch (baseUrl)
     .then (response => response.json())
     .then (data => displayTrees (data))
