@@ -1,5 +1,5 @@
 document.addEventListener ("DOMContentLoaded",() =>{
-    const baseUrl = "http://localhost:3000/trees"
+    const baseUrl = "https://yoh-9w19.vercel.app/trees"
     function displayTrees (trees) {
         trees.forEach(tree=> {
             let html = `
@@ -69,7 +69,7 @@ document.addEventListener ("DOMContentLoaded",() =>{
                     
                     console.log(treeObject);
                     
-                    fetch ("http://localhost:3000/trees", {
+                    fetch ("https://yoh-9w19.vercel.app/trees", {
                         method : "POST" ,
                         headers : {
                             "Content-Type" : "application/json"
@@ -81,18 +81,6 @@ document.addEventListener ("DOMContentLoaded",() =>{
                     .catch (error => console.error(error)
                 )
             })
-            // deleting images of trees 
-            // function deleteTree (tree_id) {
-                //     fetch (`${baseUrl}/${tree_id}`, {
-                    //         method : "DELETE",
-                    //         headers : {
-                        //             "Content-type" : "application/json"
-                        //         }
-                        //     })
-                        //     .then (response => response.json ())
-                        //     .then (data => console.log (data))
-                        //     .catch (error => console.log (error) )
-                        // }
                         
                     })
                     
