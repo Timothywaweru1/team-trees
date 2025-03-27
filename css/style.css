@@ -13,26 +13,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
 }
 #word {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
 }
 .sign {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
 }
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 #details {
     width: 500px;
     height: 35px;
+    background: #54d65e;
+    border-radius: 4rem;
 }
 .items {
     display: flex;
@@ -97,6 +109,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
 }
 #logo {
     border-radius: 8rem;
@@ -120,4 +135,49 @@ h1 {
 
 main {
     background-image: url(../images/tree-background-mountain-ranges-green-colors-vector-illustration-suitable-website-social-media-desktop-wallpapers-postcards_700253-235.avif)
+}
+#click {
+    width: 150px;
+    background-color: #207a27;
+    height: 30px;
+    border-radius: 4rem;
+    cursor: pointer;
+    font-family: "Fira Sans", sans-serif;
+}
+#submit-new-tree {
+    width: 150px;
+    background-color: #207a27;
+    height: 30px;
+    border-radius: 4rem;
+    cursor: pointer;
+    font-family: "Fira Sans", sans-serif;
+}
+h2 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700; 
+}
+.change {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+#description {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+h3{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px; 
+}
+.footer-word {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+i{
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
 }

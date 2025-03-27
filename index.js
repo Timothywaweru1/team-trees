@@ -7,7 +7,6 @@ document.addEventListener ("DOMContentLoaded",() =>{
             <h3>${tree.name}</h3>
             <img src="${tree.image_url}" alt="" id="image">
             <p id="description">${tree.description}</p>
-            
             `
             let about_trees = document.getElementById('about-trees')
             
